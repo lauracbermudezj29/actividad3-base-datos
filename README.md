@@ -50,6 +50,7 @@ python main.py
 ##  4. Agregar resultado del proyecto
 
 ```md id="extra"
+
 ## Resultado
 
 - Se crea la tabla automáticamente
