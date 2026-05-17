@@ -42,7 +42,7 @@ def main():
         fecha_nacimiento = Column(Date)
         empresa = Column(String(100))
 
-    # 4. Crearemos la tabla en la base de datos con Msql
+    # 4. Creamos la tabla en la base de datos
     Base.metadata.create_all(engine)
     print("✅ Tabla creada exitosamente")
 
