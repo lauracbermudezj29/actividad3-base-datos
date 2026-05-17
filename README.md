@@ -37,12 +37,13 @@ proyecto_faker_bd/
 
 ```bash
 pip install sqlalchemy pymysql faker python-dotenv
+```
 
-### 2. Ejecutar el proyecto
+## 2. Ejecutar el proyecto
 
 ```bash
 python main.py
-
+```
 
 ---
 
