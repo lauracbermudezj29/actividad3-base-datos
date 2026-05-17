@@ -47,11 +47,11 @@ python main.py
 
 ---
 
-##  4.Agregar resultado del proyecto
+##  4. Agregar resultado del proyecto
 
 ```md id="extra"
 ## Resultado
 
 - Se crea la tabla automáticamente
-- Se generan 100000 registros falsos
+- Se generan 100mil registros falsos
 - Se insertan en MySQL usando SQLAlchemy

@@ -25,7 +25,7 @@ def main():
         conn = engine.connect()
         print("✅ Conexión exitosa a MySQL")
     except Exception as e:
-        print("❌ Error de conexión:", e)
+        print("Error de conexión:", e)
         return
 
     # 3. Definir tabla
@@ -42,7 +42,7 @@ def main():
         fecha_nacimiento = Column(Date)
         empresa = Column(String(100))
 
-    # 4. Crear tabla en MySQL
+    # 4. Crearemos la tabla en la base de datos con Msql
     Base.metadata.create_all(engine)
     print("✅ Tabla creada exitosamente")
 
@@ -63,7 +63,7 @@ def main():
 
     print("✅ Datos generados con Faker")
 
-    # 6. Inserción por lotes 
+    # 6. Inserción por lotes, masivamente 
     conn.execute(insert(Persona), data)
     conn.commit()
 
