@@ -46,7 +46,7 @@ def main():
     Base.metadata.create_all(engine)
     print("✅ Tabla creada exitosamente")
 
-    # 5. Generar datos con Faker (lista de diccionarios)
+    # 5. Generar datos con Faker (lista de diccionarios), cada diccionario representa un registro
     fake = Faker()
 
     data = []
@@ -64,7 +64,7 @@ def main():
     print("✅ Datos generados con Faker")
 
     # 6. Inserción por lotes, masivamente 
-    
+
     conn.execute(insert(Persona), data)
     conn.commit()
 
