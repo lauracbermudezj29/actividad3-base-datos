@@ -64,6 +64,7 @@ def main():
     print("✅ Datos generados con Faker")
 
     # 6. Inserción por lotes, masivamente 
+    
     conn.execute(insert(Persona), data)
     conn.commit()
 
