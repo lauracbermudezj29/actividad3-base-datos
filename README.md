@@ -33,7 +33,7 @@ proyecto_faker_bd/
 
 ## Ejecución del proyecto
 
-### 1. Instalar dependencias
+## 1. Instalar dependencias para su uso
 
 ```bash
 pip install sqlalchemy pymysql faker python-dotenv
